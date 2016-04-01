@@ -26,6 +26,7 @@ while True:
         print(elements[idx]+":", " ".join(list(map(str, list(valences[idx]))))+".")
         print("Good try!")
         wrong += 1
+    print("CURRENT PERCENTILE: %20s" % str(round(right/(right+wrong)*100, 2))+"%")
     print("\n==============================")
 print("\n\n==============================\nRemember that \"ous\" means less positive and \"ic\" means more positive!")
 print("\n\n==============================\n")
