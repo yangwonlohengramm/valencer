@@ -1,5 +1,3 @@
-#33%, 61.9%
-
 from random import randrange
 elements = ["Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ag", "Cd", "Sn", "Au", "Hg", "Pb"]
 valences = [[3, 2], [2, 4], [3, 2], [2, 3], [2, 3], [2, 1], [2], [1], [2], [4, 2], [3, 1], [2, 1], [2, 4]]
